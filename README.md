@@ -1,29 +1,27 @@
 # Vue Time Tracker
 
-A single page application of a  simplified version of a Time tracker that adds and sum worked hours. Uses Vue.js 2.0 with webpack - using the vue-CLI installation and Vue material
+This is a Single Page Application - SPA for time tracking that adds and sum worked hours. It uses Vue.js 2.0, Webpack and Vue material
 
-## Getting Started - Basic Vue.js with CLI
-
-### install vue-cli
+## Getting Started
+### Install vue-cli
 ```
 npm install --global vue-cli
 ```
-### create a new project using the "webpack" template
+### Create a new project using `webpac template`
 ```
 vue init webpack my-project
 ```
-### install dependencies
+### Install it's dependencies
 ```
 cd my-project
 npm install
 npm run dev
 ```
-
 ## Install Vue Material
 ```
 npm install vue-material --save
 ```
-### Use Roboto and Google Icons from Google CDN:
+### Add Roboto and Google Icons from Google's CDN:
 ```
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
