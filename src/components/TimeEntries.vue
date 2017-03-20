@@ -4,8 +4,13 @@
     <md-toolbar>
         <h2 class="md-title">Vue Time Tracker</h2>
         <md-button class="md-raised" v-if="$route.path !== '/'"><router-link to="/">Home</router-link></md-button>
-        <md-button class="md-raised"><router-link to="/time-entries">Time Entries</router-link></md-button>
+        <md-button class="md-raised" v-if="$route.path !== '/time-entries'"><router-link to="/time-entries">Time Entries</router-link></md-button>
       </md-toolbar>
+      <br>
+      <br>
+      <div>
+          
+      </div>
       <br>
       <br>
     <div v-if="$route.path === '/log-time'">
@@ -68,6 +73,7 @@
     },
     data () {
       // We want to start with an existing time entry
+      src: null
       let existingEntry = {
         user: {
           firstName: 'Ryan',
