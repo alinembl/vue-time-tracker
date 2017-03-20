@@ -28,6 +28,6 @@ npm install vue-material --save
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
 ```
-##Built With
+## Built With
 [Vue.js V2.0](https://vuejs.org/v2/guide/) - Vue.js 2.0 Guide
 [Vue Material](https://vuematerial.github.io/#/)  - Vue Material Documentation
